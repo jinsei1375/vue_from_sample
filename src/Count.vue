@@ -19,5 +19,8 @@
         <p>{{ count }}</p>
         <button @click="increment">カウントアップ</button>
         <button @click="decrement">カウントダウン</button>
+        <div v-if="count >= 10">
+            <p>10以上になった</p>
+        </div>
     </div>
 </template>
