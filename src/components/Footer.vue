@@ -1,11 +1,11 @@
 <template>
-    <footer>
-        <div>フッター</div>
-    </footer>
+	<footer>
+		<div>フッター</div>
+	</footer>
 </template>
 
 <script>
-    export default {
-        name: 'Footer'
-    }
+export default {
+	name: 'Footer',
+};
 </script>
