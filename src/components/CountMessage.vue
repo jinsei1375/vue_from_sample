@@ -1,6 +1,6 @@
 <template>
-	<div v-if="count >= 10">
-		<p>10以上になった</p>
+	<div>
+		<p>10以上になった: {{ count }}</p>
 	</div>
 </template>
 

@@ -20,6 +20,6 @@ const decrement = () => {
 		<p>{{ count }}</p>
 		<button @click="increment">カウントアップ</button>
 		<button @click="decrement">カウントダウン</button>
-		<CountMessage :count="count" />
+		<CountMessage v-if="count >= 10" :count="count" />
 	</div>
 </template>
